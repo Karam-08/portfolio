@@ -9,9 +9,7 @@ const Navbar = () => {
                 <li className="hover:bg-gray-600"><a className="text-white hover:text-gray-300 no-underline" href="/about">About</a></li>
                 <li className="hover:bg-gray-600"><a className="text-white hover:text-gray-300 no-underline" href="/projects">Projects</a></li>
                 <li className="hover:bg-gray-600"><a className="text-white hover:text-gray-300 no-underline" href="/contact">Contact</a></li>
-                <li className="ml-auto">
-                    <ThemeToggle />
-                </li>
+                <li className="ml-auto"><ThemeToggle/></li>
             </ul>
         </nav>
     )
