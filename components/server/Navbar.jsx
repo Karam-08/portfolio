@@ -1,3 +1,5 @@
+import ThemeToggle from "@/components/client/ThemeToggle"
+
 const Navbar = () => {
     return (
         <nav className="bg-gray-800 text-white p-4">
@@ -7,9 +9,9 @@ const Navbar = () => {
                 <li className="hover:bg-gray-600"><a className="text-white hover:text-gray-300 no-underline" href="/about">About</a></li>
                 <li className="hover:bg-gray-600"><a className="text-white hover:text-gray-300 no-underline" href="/projects">Projects</a></li>
                 <li className="hover:bg-gray-600"><a className="text-white hover:text-gray-300 no-underline" href="/contact">Contact</a></li>
-                <button id="dark-mode-toggle" className="hover:bg-gray-600 cursor-pointer">
-                    🌙
-                </button>
+                <li className="ml-auto">
+                    <ThemeToggle />
+                </li>
             </ul>
         </nav>
     )

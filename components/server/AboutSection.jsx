@@ -1,5 +1,7 @@
 const AboutSection = () =>{
     return(
-        <div></div>
+        <div>About</div>
     )
 }
+
+export default AboutSection
