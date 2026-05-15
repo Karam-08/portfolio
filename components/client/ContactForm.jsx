@@ -47,8 +47,8 @@ const ContactForm = () =>{
     }
     
     return(
-        <div className="max-w-md mx-auto p-4 bg-gray-100 rounded-lg shadow-md">
-            <h2 className="text-2xl font-bold mb-4">Contact Me</h2>
+        <div className="max-w-md mx-auto p-4 bg-neutral-900 rounded-lg shadow-md">
+            <h2 className="text-2xl text-white font-bold mb-4">Contact Me</h2>
             <form className="space-y-4" onSubmit={handleSubmit}>
                 <label className="block text-sm font-medium text-gray-700" htmlFor="name">Name:</label>
                     <input

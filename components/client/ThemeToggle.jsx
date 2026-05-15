@@ -34,7 +34,7 @@ const ThemeToggle = () =>{
             aria-label = "Toggle Dark Mode"
             className = "ThemeToggle"
         >
-            {darkMode ? "☀️" : "🌙"}
+            {darkMode ? "🌙" : "☀️"}
         </button>
     )
 }
