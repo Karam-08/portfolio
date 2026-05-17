@@ -3,7 +3,7 @@ import ProjectCard from "@/components/server/ProjectCard";
 
 export default function Projects(){
     return(
-        <div>
+        <main>
             <h1>My Projects</h1>
             <ProjectFilter/>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
@@ -11,6 +11,6 @@ export default function Projects(){
                     <ProjectCard key={project.id} project={project}/>
                 ))}
             </div>
-        </div>
+        </main>
     )
 }

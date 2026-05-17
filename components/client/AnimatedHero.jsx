@@ -6,7 +6,7 @@ const AnimatedHero = () =>{
             <Container>
                 <div className="flex flex-col gap-6 text-center md:text-left">
                     <p className="text-blue-400 uppercase text-sm">Full Stack Developer</p>
-                    <h1 className="text-5xl md:text-7xl font-black leading-tight">Karam Abbas</h1>
+                    <h1 className="text-6xl md:text-8xl font-black leading-tight">Karam Abbas</h1>
                     <p className="text-neutral-400 max-w-2xl text-lg md:text-xl">I build modern, responsive, and interactive web applications using React, Next.js, and Node.js.</p>
                     <div className="flex flex-col sm:flex-row gap-4 mt-4 justify-center md:justify-start">
                         <button className="bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-xl font-semibold transition">View Projects</button>
@@ -17,5 +17,5 @@ const AnimatedHero = () =>{
         </section>
     )
 }
-    
+
 export default AnimatedHero

@@ -1,15 +1,15 @@
 import AnimatedHero from "@/components/client/AnimatedHero";
-import AboutSection from "@/components/server/AboutSection";
 import SkillsSection from "@/components/server/SkillsSection";
-import Timeline from "@/components/server/Timeline";
+import ProjectSection from "@/components/server/ProjectSection";
+import CTASection from "@/components/server/CTASection";
 
 export default function Home(){
     return(
-        <>
+        <main>
             <AnimatedHero/>
-            <AboutSection/>
             <SkillsSection/>
-            <Timeline/>
-        </>
+            <ProjectSection/>
+            <CTASection/>
+        </main>
     )
 }

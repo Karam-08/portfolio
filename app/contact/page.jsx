@@ -2,8 +2,8 @@ import ContactForm from "@/components/client/ContactForm";
 
 export default function Contact(){
     return(
-        <div>
+        <main>
             <ContactForm/>
-        </div>
+        </main>
     )
 }

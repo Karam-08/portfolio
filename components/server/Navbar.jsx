@@ -1,7 +1,7 @@
 import ThemeToggle from "@/components/client/ThemeToggle"
 
 const Navbar = () => {
-    return (
+    return(
         <nav className="sticky top-0 z-50 bg-neutral-950/80 backdrop-blur border-b border-neutral-800">
             <ul className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                 <h2 className="text-xl font-bold">Karam Abbas</h2>

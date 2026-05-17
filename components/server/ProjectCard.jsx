@@ -6,3 +6,5 @@ const ProjectCard = ({project}) =>{
         </div>
     )
 }
+
+export default ProjectCard
