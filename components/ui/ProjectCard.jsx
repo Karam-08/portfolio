@@ -16,8 +16,8 @@ const ProjectCard = ({project}) =>{
                 ))}
             </div>
             <div className="flex gap-3 pt-2">
-                <a href={project.github} target="_blank" className="px-4 py-2 rounded-xl border border-neutral-700 hover:border-white transition">GitHub</a>
-                <a href={project.demo} target="_blank" className="px-4 py-2 rounded-xl bg-blue-500 hover:bg-blue-600 transition">Live Demo</a>
+                <a href={project.github} target="_blank" rel="noopener noreferrer" className="px-4 py-2 rounded-xl border border-neutral-700 hover:border-white transition">GitHub</a>
+                <a href={project.demo} target="_blank" rel="noopener noreferrer" className="px-4 py-2 rounded-xl bg-blue-500 hover:bg-blue-600 transition">Live Demo</a>
             </div>
         </div>
     )

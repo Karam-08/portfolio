@@ -2,9 +2,9 @@
 
 import {useState} from "react";
 
-import Container from "@/components/ui/Container";
-
 import ProjectFilter from "@/components/client/ProjectFilter";
+
+import Container from "@/components/ui/Container";
 import ProjectCard from "@/components/ui/ProjectCard";
 
 import projects from "@/data/projects";
@@ -25,6 +25,7 @@ export default function Projects(){
     const filteredProjects = selectedCategory === "All"
         ? projects
         : projects.filter(project => project.tech.includes(selectedCategory));
+
     return(
         <main className="py-24">
             <Container>
