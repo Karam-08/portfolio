@@ -1,15 +1,54 @@
 const projects = [
     {
-        title: "Project 1",
-        description: "Description for Project 1"
+        id: 1,
+
+        title: "",
+
+        description: "",
+
+        tech: [
+            "",
+        ],
+
+        github: "",
+
+        demo: "",
+
+        image: "",
     },
     {
-        title: "Project 2",
-        description: "Description for Project 2"
+        id: 2,
+
+        title: "",
+
+        description: "",
+
+        tech: [
+            "",
+        ],
+
+        github: "",
+
+        demo: "",
+
+        image: "",
     },
     {
-        title: "Project 3",
-        description: "Description for Project 3"
+        id: 3,
+
+        title: "",
+
+        description: "",
+
+        tech: [
+            "",
+        ],
+
+        github: "",
+
+        demo: "",
+
+        image: "",
     }
 ]
 

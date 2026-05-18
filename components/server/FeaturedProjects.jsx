@@ -1,6 +1,6 @@
 import Container from "@/components/ui/Container";
 import projects from "@/data/projects";
-import ProjectCard from "@/components/server/ProjectCard";
+import ProjectCard from "@/components/ui/ProjectCard";
 
 const ProjectSection = () =>{
     return(

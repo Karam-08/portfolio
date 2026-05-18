@@ -1,6 +1,14 @@
 import Container from "@/components/ui/Container";
-import skills from "@/data/skills";
 import Card from "@/components/ui/Card";
+
+const skills = [
+    "Next.js",
+    "React",
+    "TailwindCSS",
+    "JavaScript",
+    "Node.js",
+    "Responsive Design"
+]
 
 const SkillsSection = () =>{
     return(

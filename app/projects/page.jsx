@@ -1,5 +1,5 @@
 import ProjectFilter from "@/components/client/ProjectFilter";
-import ProjectCard from "@/components/server/ProjectCard";
+import ProjectCard from "@/components/ui/ProjectCard";
 
 export default function Projects(){
     return(
