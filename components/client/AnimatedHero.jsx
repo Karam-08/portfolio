@@ -34,7 +34,7 @@ const AnimatedHero = () =>{
                             View Projects
                         </Link>
                         <Link href="/contact" className="border border-neutral-700 hover:border-white transition px-6 py-3 rounded-2xl font-semibold">
-                            Contact Me
+                            Hire me
                         </Link>
                     </motion.div>
                 </motion.div>
