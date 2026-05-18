@@ -4,9 +4,9 @@ export async function POST(req){
     try{
         const body = await req.json()
 
-        const {name, email, message} = body
+        const {name, email, subject, message} = body
 
-        if(!name || !email || !message){
+        if(!name || !email || !subject || !message){
             return Response.json({success: false, error: "All fields are required"}, {status: 400})
         }
 
@@ -17,6 +17,7 @@ export async function POST(req){
             text: `
                 Name: ${name}
                 Email: ${email}
+                Subject: ${subject}
                 Message: ${message}
             `
         })
