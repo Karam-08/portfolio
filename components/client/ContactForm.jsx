@@ -59,7 +59,7 @@ const ContactForm = () =>{
                         name="name" 
                         value={form.name}
                         onChange={handleChange}
-                        className="mt-1 block w-full rounded-xl border border-[var(--border)] bg-[var(--surface)]] px-4 py-3 text-[var(--text)] outline-none focus:border-blue-500"
+                        className="mt-1 block w-full rounded-xl border border-[var(--border)] bg-[var(--surface)] px-4 py-3 text-[var(--text)] outline-none focus:border-blue-500"
                         required
                     />
                 <label className="block text-sm font-medium text-neutral-600" htmlFor="email">Email:</label>
@@ -69,7 +69,17 @@ const ContactForm = () =>{
                         name="email" 
                         value={form.email}
                         onChange={handleChange}
-                        className="mt-1 block w-full rounded-xl border border-[var(--border)] bg-[var(--surface)]] px-4 py-3 text-[var(--text)] outline-none focus:border-blue-500"
+                        className="mt-1 block w-full rounded-xl border border-[var(--border)] bg-[var(--surface)] px-4 py-3 text-[var(--text)] outline-none focus:border-blue-500"
+                        required
+                    />
+                <label className="block text-sm font-medium text-neutral-600" htmlFor="subject">Subject:</label>
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        value={form.subject}
+                        onChange={handleChange}
+                        className="mt-1 block w-full rounded-xl border border-[var(--border)] bg-[var(--surface)] px-4 py-3 text-[var(--text)] outline-none focus:border-blue-500"
                         required
                     />
                 <label className="block text-sm font-medium text-neutral-600" htmlFor="message">Message:</label>
@@ -78,21 +88,11 @@ const ContactForm = () =>{
                         name="message" 
                         value={form.message}
                         onChange={handleChange}
-                        className="mt-1 block w-full rounded-xl border border-[var(--border)] bg-[var(--surface)]] px-4 py-3 text-[var(--text)] outline-none focus:border-blue-500"
+                        className="mt-1 block w-full rounded-xl border border-[var(--border)] bg-[var(--surface)] px-4 py-3 text-[var(--text)] outline-none focus:border-blue-500"
                         required
                     ></textarea>
-                <label className="block text-sm font-medium text-neutral-600" htmlFor="subject">Subject:</label>
-                    <input
-                        type="text"
-                        id="subject"
-                        name="subject"
-                        value={form.subject}
-                        onChange={handleChange}
-                        className="mt-1 block w-full rounded-xl border border-[var(--border)] bg-[var(--surface)]] px-4 py-3 text-[var(--text)] outline-none focus:border-blue-500"
-                        required
-                    />
                 <button 
-                    type="submit" 
+                    type="submit"
                     className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-[var(--text)] bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                 >
                     {status === "loading" ? "Sending..." : "Send Message"}

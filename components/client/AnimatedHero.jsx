@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 import {motion} from "framer-motion";
 
 import Container from "@/components/ui/Container";
@@ -17,7 +19,7 @@ const AnimatedHero = () =>{
                 >
                     <div className="space-y-4">
                         <p className="uppercase text-sm text-blue-400 font-semibold">Full Stack Developer</p>
-                        <h1 className="text-4xl md:text-5xl font-bold">Karam Abbas</h1>
+                        <h1 className="text-5xl md:text-7xl font-bold">Karam Abbas</h1>
                         <p className="text-neutral-400 max-w-2xl text-lg md:text-xl mx-auto md:mx-0">I build responsive and interactive web applications focused on clean design, usability, and performance.</p>
                     </div>
 
@@ -28,12 +30,12 @@ const AnimatedHero = () =>{
 
                         className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start"
                     >
-                        <a href="/projects" className="bg-blue-500 hover:bg-blue-600 transition px-6 py-3 rounded-2xl font-semibold text-white">
+                        <Link href="/projects" className="bg-blue-500 hover:bg-blue-600 transition px-6 py-3 rounded-2xl font-semibold text-white">
                             View Projects
-                        </a>
-                        <a href="/contact" className="border border-neutral-700 hover:border-white transition px-6 py-3 rounded-2xl font-semibold">
+                        </Link>
+                        <Link href="/contact" className="border border-neutral-700 hover:border-white transition px-6 py-3 rounded-2xl font-semibold">
                             Contact Me
-                        </a>
+                        </Link>
                     </motion.div>
                 </motion.div>
             </Container>

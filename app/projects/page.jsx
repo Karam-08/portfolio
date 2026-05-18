@@ -33,7 +33,7 @@ export default function Projects(){
                     <div className="text-center space-y-4">
                         <p className="uppercase text-sm text-blue-400 font-semibold">Projects</p>
                         <h1 className="text-5xl md:text-7xl font-black">My Projects</h1>
-                        <p className="text-neutral-400 max-w-2xl mx-auto text-lg">Here is a collection of interactive projects build with modern web technologies.</p>
+                        <p className="text-neutral-400 max-w-2xl mx-auto text-lg">Here is a collection of interactive projects built with modern web technologies.</p>
                     </div>
 
                     <ProjectFilter categories={categories} selectedCategory={selectedCategory} onSelectCategory={setSelectedCategory}/>
