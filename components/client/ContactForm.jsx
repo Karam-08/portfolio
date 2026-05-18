@@ -57,7 +57,9 @@ const ContactForm = () =>{
                         name="name" 
                         value={form.name}
                         onChange={handleChange}
-                        className="mt-1 block w-full border-gray-300 focus:ring-blue-500 focus:border-blue-500 shadow-sm"/>
+                        className="mt-1 block w-full border-gray-300 focus:ring-blue-500 focus:border-blue-500 shadow-sm"
+                        required
+                    />
                 <label className="block text-sm font-medium text-gray-700" htmlFor="email">Email:</label>
                     <input 
                         type="email" 
@@ -65,7 +67,9 @@ const ContactForm = () =>{
                         name="email" 
                         value={form.email}
                         onChange={handleChange}
-                        className="mt-1 block w-full border-gray-300 focus:ring-blue-500 focus:border-blue-500 shadow-sm" />
+                        className="mt-1 block w-full border-gray-300 focus:ring-blue-500 focus:border-blue-500 shadow-sm"
+                        required
+                    />
                 <label className="block text-sm font-medium text-gray-700" htmlFor="message">Message:</label>
                     <textarea 
                         id="message" 
@@ -73,6 +77,7 @@ const ContactForm = () =>{
                         value={form.message}
                         onChange={handleChange}
                         className="mt-1 block w-full border-gray-300 focus:ring-blue-500 focus:border-blue-500 shadow-sm"
+                        required
                     ></textarea>
                 <button 
                     type="submit" 

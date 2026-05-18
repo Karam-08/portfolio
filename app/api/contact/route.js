@@ -6,6 +6,10 @@ export async function POST(req){
 
         const {name, email, message} = body
 
+        if(!name || !email || !message){
+            return Response.json({success: false, error: "All fields are required"}, {status: 400})
+        }
+
         await transporter.sendMail({
             from: process.env.EMAIL_USER,
             to: process.env.EMAIL_USER,
